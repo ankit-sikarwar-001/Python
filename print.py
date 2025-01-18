@@ -15,23 +15,23 @@ c = 25
 
 print(a,b,c,sep="-",end =";")
 
-#using file 
+# #using file 
 a= 13
 b= "01"
 c = 25
-print(a,b,c,sep="-",file= open("file.txt","a"))
+print(a,b,c,sep="-",file= open("file.txt","w"))
 
-#format method one 
+# #format method one 
 name = "Alice"
 age = 30
 print("Name: {}, Age: {}".format(name, age))
 
-#format method two
-name = "Ankit"
+# #format method two
+name2 = "Ankit"
 age = 22
-print(f"Name: {name}, Age: {age}")
+print(f"Name: {name2}, Age: {age}")
 
-#format method third
-name = "Piyush"
-age = 21
-print("Name: %s, Age: %d"%(name,age))
+# #format method third
+# name = "Piyush"
+# age = 21
+# print("Name: %s, Age: %d"%(name,age))

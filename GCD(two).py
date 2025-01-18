@@ -1,8 +1,8 @@
 def gcd(first, second):
     while second != 0:
-        temp = second
-        second = first % second
-        first = temp
+        # temp = second
+        first,second = second,first % second
+        # first = temp
     return first
 
 num1 = 27

@@ -1,2 +1,3 @@
-def gcd(first,second):
-    while second != 0:
+
+age = 22
+print(f"Name: {name}, Age: {age}")
